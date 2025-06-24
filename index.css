@@ -1,0 +1,25 @@
+.body-div {
+    height: 500px;
+    width: 410px;
+    border: solid;
+    border-color: blueviolet;
+}
+
+.result-div{
+    display: -moz-inline-stack;
+    height: 60px;
+    width: 405px;
+    color: black;
+    margin-bottom: 1em;
+    border: solid;
+    border-color: aqua;
+}
+
+.type-pad {
+    display:grid;
+    grid-template-rows: 90px 90px 90px 90px;
+    grid-template-columns: 90px 90px 90px 90px;
+    grid-gap: 1em;
+    border: solid;
+    border-color: aquamarine;
+}
