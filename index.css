@@ -1,25 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 .body-div {
-    height: 500px;
+    margin-top: 5em;
+    margin-left: 5em;
+    height:500px;
     width: 410px;
     border: solid;
-    border-color: blueviolet;
+    border-color: #855E62;
+    border-radius: 1em;
 }
 
 .result-div{
-    display: -moz-inline-stack;
+    display: inline-block;
     height: 60px;
     width: 405px;
-    color: black;
-    margin-bottom: 1em;
-    border: solid;
-    border-color: aqua;
+    padding-top: 0.5em;
+    text-align: right;
+    color:#855E62;
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
 }
 
 .type-pad {
     display:grid;
     grid-template-rows: 90px 90px 90px 90px;
     grid-template-columns: 90px 90px 90px 90px;
-    grid-gap: 1em;
-    border: solid;
-    border-color: aquamarine;
+    grid-gap: 0.7em;
+    padding-left:0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
 }
+
+.button {
+    background-color: #EDE9E8;
+    border-radius: 100%;
+    border: none;
+    padding: 0 0 0 0;
+    font-size: xx-large;
+    font-family: 'Open Sans', sans-serif;
+    color: #855E62;
+}
+
+.clear {
+    background-color: #EDE9E8;
+    border-radius: 100%;
+    border: none;
+    padding: 0 0 0 0;
+    font-size: xx-large;
+    font-family: 'Open Sans', sans-serif;
+    color: #D04139;
+}
+
+.operation {
+    background-color: #EDE9E8;
+    border-radius: 100%;
+    border: none;
+    padding: 0 0 0 0;
+    font-size: xx-large;
+    font-family: 'Open Sans', sans-serif;
+    color: #745a8b;
+}
+
+.equal-to{
+    background-color: #745a8b;
+    border-radius: 100%;
+    border: none;
+    font-size: xx-large;
+    padding: 0 0 0 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.material-symbols-outlined{
+    color: #745a8b;
+}
+
+#cursor {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.divide {
+    color: #745a8b;
+    width: 25px;
+    height: 25px;
+}
+
+.divider {
+    color: #c9c7c7;
+}
+
